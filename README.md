@@ -17,7 +17,7 @@ yarn add @vulcancreative/keyboard-event-bus
 ## How to use
 Wrap your React app with `KeyboardEventBusProvider`
 
-```
+```js
 import {KeyboardEventBusProvider} from "@vulcancreative/keyboard-event-bus";
 
 <KeyboardEventBusProvider>
@@ -27,7 +27,7 @@ import {KeyboardEventBusProvider} from "@vulcancreative/keyboard-event-bus";
 
 Inside your React app, use useKeyboardEventBus hook to add new shortcut.
 
-```
+```js
 import { useKeyboardEventBus, Key } from "@vulcancreative/keyboard-event-bus";
 
 const App = () => {
