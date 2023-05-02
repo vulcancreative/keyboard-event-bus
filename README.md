@@ -1,4 +1,4 @@
-<a href="https://www.npmjs.com/package/@vulcancreative/keyboard-event-bus"><img src="https://img.shields.io/npm/v/@vulcancreative/keyboard-event-bus" /></a>
+<a target="_blank" href="https://www.npmjs.com/package/@vulcancreative/keyboard-event-bus"><img src="https://img.shields.io/npm/v/@vulcancreative/keyboard-event-bus" /></a>
 
 # Keyboard Event Bus
 A lightweight package for handling keyboard events and triggering user-defined actions in React applications
