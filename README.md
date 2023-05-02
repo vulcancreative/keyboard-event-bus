@@ -4,7 +4,7 @@
 Wrap your React app with `KeyboardEventBusProvider`
 
 ```
-import {KeyboardEventBusProvider} from "../src";
+import {KeyboardEventBusProvider} from "@vulcancreative/keyboard-event-bus";
 
 <KeyboardEventBusProvider>
   <App />
@@ -14,7 +14,7 @@ import {KeyboardEventBusProvider} from "../src";
 Inside your React app, use useKeyboardEventBus hook to add new shortcut.
 
 ```
-import { useKeyboardEventBus, Key } from "../src";
+import { useKeyboardEventBus, Key } from "@vulcancreative/keyboard-event-bus";
 
 const App = () => {
   const shortcut = useKeyboardEventBus();

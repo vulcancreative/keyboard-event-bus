@@ -1,6 +1,6 @@
 {
   "name": "@vulcancreative/keyboard-event-busaaa",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight package for handling keyboard events and triggering user-defined actions in React applications",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
