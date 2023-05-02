@@ -1,0 +1,30 @@
+{
+  "name": "@vulcancreative/keyboard-event-busaaa",
+  "version": "1.0.0",
+  "description": "A lightweight package for handling keyboard events and triggering user-defined actions in React applications",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build",
+    "start": "npm run remove-demo-dist && parcel demo/index.html --dist-dir demo-dist --open",
+    "build-demo": "npm run remove-demo-dist && parcel build demo --public-url ./ --dist-dir demo-dist",
+    "remove-demo-dist": "rm -rf demo-dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.0.4",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.1",
+    "@types/uuid": "^9.0.1",
+    "parcel": "^2.0.0-rc.0",
+    "process": "^0.11.10"
+  }
+}
