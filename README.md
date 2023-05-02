@@ -3,6 +3,17 @@
 ## Demo
 [https://vulcancreative.github.io/keyboard-event-bus/](https://vulcancreative.github.io/keyboard-event-bus)
 
+## Instalation
+```
+npm install @vulcancreative/keyboard-event-bus
+```
+
+or 
+
+```
+yarn add @vulcancreative/keyboard-event-bus
+```
+
 ## How to use
 Wrap your React app with `KeyboardEventBusProvider`
 
