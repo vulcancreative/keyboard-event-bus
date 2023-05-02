@@ -1,4 +1,5 @@
 # Keyboard Event Bus
+A lightweight package for handling keyboard events and triggering user-defined actions in React applications
 
 ## Demo
 [https://vulcancreative.github.io/keyboard-event-bus/](https://vulcancreative.github.io/keyboard-event-bus)
