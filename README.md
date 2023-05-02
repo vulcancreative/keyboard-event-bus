@@ -1,5 +1,8 @@
 # Keyboard Event Bus
 
+## Demo
+[https://vulcancreative.github.io/keyboard-event-bus/](https://vulcancreative.github.io/keyboard-event-bus)
+
 ## How to use
 Wrap your React app with `KeyboardEventBusProvider`
 
