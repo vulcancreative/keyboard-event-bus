@@ -28,7 +28,7 @@ import {KeyboardEventBusProvider} from "@vulcancreative/keyboard-event-bus";
 </KeyboardEventBusProvider>
 ```
 
-Inside your React app, use useKeyboardEventBus hook to add new shortcut.
+Inside your React app, use the `useKeyboardEventBus` hook to add new shortcut.
 
 ```js
 import { useKeyboardEventBus, Key } from "@vulcancreative/keyboard-event-bus";
